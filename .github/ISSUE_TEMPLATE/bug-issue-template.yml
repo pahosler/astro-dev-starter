@@ -1,20 +1,12 @@
 name: Bug Report
-description: File a bug report
-title: "[Bug]: "
+description: File a bug report and help us improve.
+title: "🐞 Bug: "
 labels: ["bug", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: textarea
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+        Thanks for taking the time to fill out this bug report! 🙌
   - type: textarea
     id: what-happened
     attributes:

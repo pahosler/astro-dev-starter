@@ -1,0 +1,35 @@
+name: Feature Request
+description: File a feature request
+title: "💡 Feature request: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! 🙌
+  - type: textarea
+    id: what-would-you-like-to-see
+    attributes:
+      label: What would you like to see?
+      description: Try to explain your idea as much as possible.
+      placeholder:
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: idea-reference
+    attributes:
+      label: Did you see your idea elsewhere?
+      description: Feel free to provide links or images about the feature you are requesting. 
+      placeholder:
+      value:
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct & Contribution Guidelines
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/mbos2/astro-dev-starter/blob/main/CODE_OF_CONDUCT.md) and [Contribution Guidelines](https://github.com/mbos2/astro-dev-starter/blob/main/CONTRIBUTING.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct and Contribution Guidelines
+          required: true
